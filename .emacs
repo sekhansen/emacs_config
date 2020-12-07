@@ -97,31 +97,3 @@
 				   (reftex-mode t)
 				   (flyspell-mode t)))
 		           ))
-
-;; (use-package auctex
-;; 	     :ensure t
-;; 	     :init
-;; 	     (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
-;; 	     :config
-;; 	     (setq reftex-plug-into-AUCTeX t)
-;; 	     )
-
-
-
-;; (custom-set-variables
-;;  ;; custom-set-variables was added by Custom.
-;;  ;; If you edit it by hand, you could mess it up, so be careful.
-;;  ;; Your init file should contain only one such instance.
-;;  ;; If there is more than one, they won't work right.
-;;  '(TeX-PDF-mode t)
-;;  '(TeX-source-correlate-method 'synctex)
-;;  '(TeX-source-correlate-mode t)
-;;  '(TeX-source-correlate-start-server t)
-;;  '(TeX-view-program-selection '((output-pdf "Okular")))
-;;  '(package-selected-packages '(moe-theme multiple-cursors ess elpy auctex)))
-;; (custom-set-faces
-;;  ;; custom-set-faces was added by Custom.
-;;  ;; If you edit it by hand, you could mess it up, so be careful.
-;;  ;; Your init file should contain only one such instance.
-;;  ;; If there is more than one, they won't work right.
-;;  )
